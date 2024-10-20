@@ -118,6 +118,7 @@ body {
 /* Restaurant card styles */
 .res-card {
     width: 220px;
+    height: 400px;
     margin: 20px;
     padding: 10px;
     border: 1px solid black;
@@ -203,4 +204,11 @@ body {
 .login-btn{
     padding: 10px;
     cursor: pointer;
+}
+
+/* Make the link behave like a block element and remove default link styles */
+.res-card-link {
+    display: inline-block; /* Ensures the link behaves like a block-level element */
+    text-decoration: none; /* Remove the default underline */
+    color: inherit; /* Inherit text color from the parent */
 }
