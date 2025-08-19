@@ -1,10 +1,11 @@
 import { resList as restaurantList } from "../utils/data";
-import RestaurantCard from "./RestaurantCard";
-import "../../index.css";
+import { RestaurantCard, WithPromotedLabel } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+
+import { data as dummyData} from "../utils/data.json"
 
 const Body = () => {
   // Local State Variable - Super powerful variable
@@ -17,7 +18,6 @@ const Body = () => {
   // if no dependency array => useEffect is called on every render
   //if dependency array is empty = [] => useEffect is called on initial render(just once)
   // if dependency array is [btnNameReact] = > called everytime btnNameReact is updated
-
   useEffect(() => {
     fetchData();
   }, []);
@@ -53,10 +53,14 @@ const Body = () => {
     return <h1>You're offline!!..Please check your internet connection!!.</h1>;
   }
 
+  // Higher order
+  const RestaurantCardPromoted = WithPromotedLabel(RestaurantCard);
+  console.log(dummyData);
   return (
     <div>
-      <div className="top">
-        <div className="search-bar">
+      <div className="top flex flex-col sm:flex-row items-center px-4 py-4 gap-2">
+        {/* Search Bar */}
+        <div className="search-bar flex">
           <input
             type="text"
             placeholder="Search for restaurants"
@@ -71,19 +75,14 @@ const Body = () => {
 
               setFilteredData(filtered);
             }}
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-400 transition"
           />
-          {/* <button onClick={()=>{
-                    // const filteredData = resData.filter((item)=>
-                    //     item.info.name.toLowerCase().includes(search.toLowerCase())
-                    // );
-                    // setresList(filteredData);
-                    console.log(filteredData);
-                }}>Search</button> */}
         </div>
 
+        {/* Filter Button */}
         <div className="filter">
           <button
-            className="filter-btn"
+            className="filter-btn bg-orange-400 text-white px-5 py-2 rounded-lg shadow-md hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
             onClick={() => {
               const filtered = filteredData.filter(
                 (item) => item.info.avgRating >= 4.3
@@ -96,7 +95,8 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="res-card-container">
+      {/* realTime data */}
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
         {filteredData.map((item) => {
           return (
             <Link
@@ -104,7 +104,29 @@ const Body = () => {
               key={item.info.id}
               className="res-card-link"
             >
-              <RestaurantCard resData={item} />
+              {console.log(item.info)}
+              {(item.info.promoted) ? (<RestaurantCardPromoted resData={item} />) :
+                (<RestaurantCard resData={item} />)}
+            </Link>
+          );
+        })}
+      </div> */}
+
+      {/* dummy data */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
+        {dummyData.map((item) => {
+          return (
+            <Link
+              to={"/restaurant/" + item.info.id}
+              key={item.info.id}
+              className="res-card-link"
+            >
+              {console.log(item.info)}
+              {item.info.promoted ? (
+                <RestaurantCardPromoted resData={item} />
+              ) : (
+                <RestaurantCard resData={item} />
+              )}
             </Link>
           );
         })}

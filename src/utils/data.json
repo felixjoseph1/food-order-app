@@ -1,4 +1,5 @@
-export const resList= [
+{
+  "data": [
     {
       "info": {
         "id": "424353",
@@ -7,11 +8,7 @@ export const resList= [
         "locality": "Shenoy Nagar",
         "areaName": "Kilpauk",
         "costForTwo": "₹300 for two",
-        "cuisines": [
-          "Desserts",
-          "Ice Cream",
-          "Ice Cream Cakes"
-        ],
+        "cuisines": ["Desserts", "Ice Cream", "Ice Cream Cakes"],
         "avgRating": 3,
         "veg": true,
         "parentId": "582",
@@ -50,9 +47,7 @@ export const resList= [
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -86,21 +81,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -109,9 +96,7 @@ export const resList= [
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         "campaignId": "18554257"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=424353",
         "text": "RESTAURANT_MENU",
@@ -126,10 +111,7 @@ export const resList= [
         "locality": "Kandhaswamy Salai",
         "areaName": "Perambur",
         "costForTwo": "₹300 for two",
-        "cuisines": [
-          "Chinese",
-          "Grill"
-        ],
+        "cuisines": ["Chinese", "Grill"],
         "avgRating": 4.1,
         "parentId": "7288",
         "avgRatingString": "4.1",
@@ -165,9 +147,7 @@ export const resList= [
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -200,21 +180,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -222,9 +194,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=39583",
         "text": "RESTAURANT_MENU",
@@ -239,11 +209,7 @@ export const resList= [
         "locality": "Poonamallee High Road",
         "areaName": "Egmore",
         "costForTwo": "₹300 for two",
-        "cuisines": [
-          "South Indian",
-          "North Indian",
-          "Chinese"
-        ],
+        "cuisines": ["South Indian", "North Indian", "Chinese"],
         "avgRating": 4.4,
         "veg": true,
         "parentId": "472038",
@@ -270,18 +236,12 @@ export const resList= [
           ]
         },
         "isOpen": true,
-        "aggregatedDiscountInfoV2": {
-
-        },
+        "aggregatedDiscountInfoV2": {},
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textExtendedBadges": {
-
-            },
-            "textBased": {
-
-            },
+            "textExtendedBadges": {},
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -298,21 +258,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -320,9 +272,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=35323",
         "text": "RESTAURANT_MENU",
@@ -337,11 +287,7 @@ export const resList= [
         "locality": "Egmore",
         "areaName": "Egmore",
         "costForTwo": "₹200 for two",
-        "cuisines": [
-          "South Indian",
-          "Indian",
-          "Biryani"
-        ],
+        "cuisines": ["South Indian", "Indian", "Biryani"],
         "avgRating": 4.1,
         "parentId": "42159",
         "avgRatingString": "4.1",
@@ -358,22 +304,14 @@ export const resList= [
           "nextCloseTime": "2024-09-19 04:00:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
-            "imageBased": {
-
-            },
-            "textExtendedBadges": {
-
-            }
+            "textBased": {},
+            "imageBased": {},
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -384,21 +322,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -406,9 +336,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=132818",
         "text": "RESTAURANT_MENU",
@@ -423,9 +351,7 @@ export const resList= [
         "locality": "Peters Rd",
         "areaName": "Royapettah",
         "costForTwo": "₹500 for two",
-        "cuisines": [
-          "Indian"
-        ],
+        "cuisines": ["Indian"],
         "avgRating": 4.3,
         "parentId": "279462",
         "avgRatingString": "4.3",
@@ -444,46 +370,28 @@ export const resList= [
           "nextCloseTime": "2024-09-19 05:00:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
-        "aggregatedDiscountInfoV2": {
-
-        },
+        "aggregatedDiscountInfoV2": {},
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textExtendedBadges": {
-
-            },
-            "textBased": {
-
-            },
-            "imageBased": {
-
-            }
+            "textExtendedBadges": {},
+            "textBased": {},
+            "imageBased": {}
           }
         },
         "differentiatedUi": {
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -492,9 +400,7 @@ export const resList= [
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         "campaignId": "18438497"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=488270",
         "text": "RESTAURANT_MENU",
@@ -509,10 +415,7 @@ export const resList= [
         "locality": "Nungambakkam",
         "areaName": "Thousand Lights",
         "costForTwo": "₹150 for two",
-        "cuisines": [
-          "Beverages",
-          "Snacks"
-        ],
+        "cuisines": ["Beverages", "Snacks"],
         "avgRating": 4.4,
         "veg": true,
         "parentId": "59999",
@@ -539,15 +442,11 @@ export const resList= [
           ]
         },
         "isOpen": true,
-        "aggregatedDiscountInfoV2": {
-
-        },
+        "aggregatedDiscountInfoV2": {},
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -558,30 +457,20 @@ export const resList= [
                 }
               ]
             },
-            "textExtendedBadges": {
-
-            }
+            "textExtendedBadges": {}
           }
         },
         "differentiatedUi": {
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -589,9 +478,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=277167",
         "text": "RESTAURANT_MENU",
@@ -606,9 +493,7 @@ export const resList= [
         "locality": "Aminjikarai",
         "areaName": "Aminjikarai",
         "costForTwo": "₹600 for two",
-        "cuisines": [
-          "Biryani"
-        ],
+        "cuisines": ["Biryani"],
         "avgRating": 4.2,
         "parentId": "11710",
         "avgRatingString": "4.2",
@@ -625,22 +510,14 @@ export const resList= [
           "nextCloseTime": "2024-09-19 02:00:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
-            "imageBased": {
-
-            },
-            "textExtendedBadges": {
-
-            }
+            "textBased": {},
+            "imageBased": {},
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -651,21 +528,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "4.6",
@@ -676,9 +545,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=404428",
         "text": "RESTAURANT_MENU",
@@ -717,22 +584,14 @@ export const resList= [
           "nextCloseTime": "2024-09-19 05:59:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textExtendedBadges": {
-
-            },
-            "textBased": {
-
-            },
-            "imageBased": {
-
-            }
+            "textExtendedBadges": {},
+            "textBased": {},
+            "imageBased": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -743,21 +602,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -765,9 +616,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=143648",
         "text": "RESTAURANT_MENU",
@@ -821,9 +670,7 @@ export const resList= [
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -834,9 +681,7 @@ export const resList= [
                 }
               ]
             },
-            "textExtendedBadges": {
-
-            }
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -847,21 +692,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -870,9 +707,7 @@ export const resList= [
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         "campaignId": "18047037"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=330725",
         "text": "RESTAURANT_MENU",
@@ -887,11 +722,7 @@ export const resList= [
         "locality": "Avenue Road",
         "areaName": "Nungambakkam",
         "costForTwo": "₹300 for two",
-        "cuisines": [
-          "North Indian",
-          "South Indian",
-          "Chinese"
-        ],
+        "cuisines": ["North Indian", "South Indian", "Chinese"],
         "avgRating": 4.5,
         "parentId": "292620",
         "avgRatingString": "4.5",
@@ -908,22 +739,14 @@ export const resList= [
           "nextCloseTime": "2024-09-19 04:00:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "imageBased": {
-
-            },
-            "textExtendedBadges": {
-
-            },
-            "textBased": {
-
-            }
+            "imageBased": {},
+            "textExtendedBadges": {},
+            "textBased": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -935,21 +758,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -957,9 +772,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=487533",
         "text": "RESTAURANT_MENU",
@@ -974,12 +787,7 @@ export const resList= [
         "locality": "Kilpauk",
         "areaName": "Kilpauk",
         "costForTwo": "₹400 for two",
-        "cuisines": [
-          "Burgers",
-          "Beverages",
-          "Cafe",
-          "Desserts"
-        ],
+        "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
         "avgRating": 4.4,
         "parentId": "630",
         "avgRatingString": "4.4",
@@ -1031,9 +839,7 @@ export const resList= [
                 }
               ]
             },
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -1060,21 +866,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "4.2",
@@ -1085,9 +883,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=23742",
         "text": "RESTAURANT_MENU",
@@ -1102,9 +898,7 @@ export const resList= [
         "locality": "Anna Salai",
         "areaName": "Triplicane",
         "costForTwo": "₹350 for two",
-        "cuisines": [
-          "Pizzas"
-        ],
+        "cuisines": ["Pizzas"],
         "avgRating": 4.3,
         "parentId": "721",
         "avgRatingString": "4.3",
@@ -1137,9 +931,7 @@ export const resList= [
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -1156,9 +948,7 @@ export const resList= [
                 }
               ]
             },
-            "textExtendedBadges": {
-
-            }
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -1169,21 +959,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -1191,9 +973,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=806891",
         "text": "RESTAURANT_MENU",
@@ -1208,11 +988,7 @@ export const resList= [
         "locality": "West Club Road",
         "areaName": "Shenoy Nagar",
         "costForTwo": "₹400 for two",
-        "cuisines": [
-          "Pizzas",
-          "Italian",
-          "American"
-        ],
+        "cuisines": ["Pizzas", "Italian", "American"],
         "avgRating": 4.5,
         "parentId": "7832",
         "avgRatingString": "4.5",
@@ -1253,12 +1029,8 @@ export const resList= [
                 }
               ]
             },
-            "textExtendedBadges": {
-
-            },
-            "textBased": {
-
-            }
+            "textExtendedBadges": {},
+            "textBased": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -1269,21 +1041,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -1292,9 +1056,7 @@ export const resList= [
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
         "campaignId": "18047168"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=141433",
         "text": "RESTAURANT_MENU",
@@ -1309,10 +1071,7 @@ export const resList= [
         "locality": "Gurumoorthy Garden Street",
         "areaName": "Perambur",
         "costForTwo": "₹350 for two",
-        "cuisines": [
-          "Burgers",
-          "American"
-        ],
+        "cuisines": ["Burgers", "American"],
         "avgRating": 4.3,
         "parentId": "166",
         "avgRatingString": "4.3",
@@ -1345,9 +1104,7 @@ export const resList= [
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
+            "textBased": {},
             "imageBased": {
               "badgeObject": [
                 {
@@ -1364,9 +1121,7 @@ export const resList= [
                 }
               ]
             },
-            "textExtendedBadges": {
-
-            }
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -1377,21 +1132,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "4.3",
@@ -1402,9 +1149,7 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=518645",
         "text": "RESTAURANT_MENU",
@@ -1445,22 +1190,14 @@ export const resList= [
           "nextCloseTime": "2024-09-19 01:00:00",
           "opened": true
         },
-        "badges": {
-
-        },
+        "badges": {},
         "isOpen": true,
         "type": "F",
         "badgesV2": {
           "entityBadges": {
-            "textBased": {
-
-            },
-            "imageBased": {
-
-            },
-            "textExtendedBadges": {
-
-            }
+            "textBased": {},
+            "imageBased": {},
+            "textExtendedBadges": {}
           }
         },
         "aggregatedDiscountInfoV3": {
@@ -1477,21 +1214,13 @@ export const resList= [
           "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
           "differentiatedUiMediaDetails": {
             "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-
-            },
-            "video": {
-
-            }
+            "lottie": {},
+            "video": {}
           }
         },
-        "reviewsSummary": {
-
-        },
+        "reviewsSummary": {},
         "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-
-        },
+        "restaurantOfferPresentationInfo": {},
         "externalRatings": {
           "aggregatedRating": {
             "rating": "--"
@@ -1499,13 +1228,12 @@ export const resList= [
         },
         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
       },
-      "analytics": {
-
-      },
+      "analytics": {},
       "cta": {
         "link": "swiggy://menu?restaurant_id=33457",
         "text": "RESTAURANT_MENU",
         "type": "DEEPLINK"
       }
-    }]
-
+    }
+  ]
+}
