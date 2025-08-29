@@ -96,7 +96,7 @@ const Body = () => {
       </div>
 
       {/* realTime data */}
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
         {filteredData.map((item) => {
           return (
             <Link
@@ -110,10 +110,10 @@ const Body = () => {
             </Link>
           );
         })}
-      </div> */}
+      </div>
 
       {/* dummy data */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-16 py-8">
         {dummyData.map((item) => {
           return (
             <Link
@@ -130,7 +130,7 @@ const Body = () => {
             </Link>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
